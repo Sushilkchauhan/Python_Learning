@@ -1,3 +1,4 @@
 select a, b from employee
-where name <> NULL and name = 'a'
+where name <> NULL and name = 'a' 
 group by a
+order by b
