@@ -1,4 +1,4 @@
-select a, b from employee
-where name <> NULL and name = 'a' 
+select a, b, c, d from employee
+where name = 'a' 
 group by a
-order by b
+order by b, c desc 
