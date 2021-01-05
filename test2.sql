@@ -1,2 +1,2 @@
 select * from employee
-where name <> NULL
+where name <> NULL and name = 'a'
